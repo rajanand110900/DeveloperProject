@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - XAG Labs</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/Logo.svg" alt="XAG Labs Logo" class="logo">
+        </div>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+        <form id="contactForm">
+            <label for="contactName">Full Name:</label>
+            <input type="text" id="contactName" name="contactName" required>
+
+            <label for="contactEmail">Email:</label>
+            <input type="email" id="contactEmail" name="contactEmail" required>
+
+            <label for="contactMessage">Message:</label>
+            <textarea id="contactMessage" name="contactMessage" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <!-- Button to go back to Home -->
+        <button id="homeButton" class="btn">Back to Home</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 XAG Labs. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
