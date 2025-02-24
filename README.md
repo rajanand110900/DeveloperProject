@@ -1,3 +1,7 @@
+DEMO -------
+
+http://127.0.0.1:5500
+
 # XAG Labs Developer Test
 
 This is a technical test project for **XAG Labs**, where the goal is to create a small multi-page website using **HTML5**, **CSS3**, and **JavaScript**. The website consists of a **Home page**, **Personal Details page**, and **Contact Us page** with proper navigation and responsive design.
